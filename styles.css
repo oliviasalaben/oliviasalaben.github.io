@@ -46,19 +46,19 @@ h1 {
     color: #fff; /* This sets the text color of all text inside .hero to white */
     text-align: center;
     padding: 50px 20px;
-    border-bottom: 5px solid #ff69b4; /* Playful border color */
+    border-bottom: 5px solid #000; /* Black border color */
 }
 
 .hero h2 {
     font-size: 2rem;
     margin-bottom: 10px;
-    color: #00000; /* Ensure the heading color is black */
+    color: #000; /* Ensure the heading color is black */
 }
 
 .hero p {
     font-size: 1.2rem;
     margin: 0;
-    color: #00000; /* Ensure the paragraph color is black */
+    color: #000; /* Ensure the paragraph color is black */
 }
 
 /* Features Section Styling */
@@ -73,7 +73,7 @@ h1 {
     flex: 1;
     max-width: 30%;
     background-color: #ffebcd; /* Light background for feature items */
-    border: 2px solid #000000; /* Black border color */
+    border: 2px solid #000; /* Black border color */
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
