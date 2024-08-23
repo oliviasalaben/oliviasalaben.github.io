@@ -5,63 +5,91 @@ body, h1, h2, h3, p, ul {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
     line-height: 1.6;
+    background-color: #f0f8ff; /* Light background color */
+    color: #333;
 }
 
+/* Header Styling */
 header {
-    background-color: #333;
+    background-color: #ff69b4; /* Bright pink for a playful touch */
     color: #fff;
-    padding: 10px 0;
+    padding: 20px;
+    text-align: center;
 }
 
 nav ul {
     list-style: none;
-    display: flex;
-    justify-content: center;
+    padding: 0;
 }
 
 nav li {
+    display: inline;
     margin: 0 15px;
 }
 
 nav a {
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
 }
 
+h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+
+/* Hero Section Styling */
 .hero {
-    background: url('cyrpress.jpg') no-repeat center center/cover;
+    background: url('hero-image.jpg') no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 50px 20px;
+    border-bottom: 5px solid #ff69b4; /* Playful border color */
 }
 
-.cta-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #f39c12;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
 }
 
+.hero p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* Features Section Styling */
 .features {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 20px;
 }
 
 .feature-item {
     flex: 1;
-    margin: 0 10px;
-    background-color: #f4f4f4;
+    max-width: 30%;
+    background-color: #ffebcd; /* Light background for feature items */
+    border: 2px solid #ff69b4; /* Bright border color */
+    border-radius: 10px;
     padding: 20px;
-    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
 }
 
+.feature-item h4 {
+    color: #ff69b4; /* Bright pink for headings */
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    color: #333;
+}
+
+/* Footer Styling */
 footer {
-    background-color: #333;
+    background-color: #ff69b4; /* Match header color for consistency */
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -69,9 +97,15 @@ footer {
 
 footer ul {
     list-style: none;
+    padding: 0;
 }
 
 footer li {
     display: inline;
     margin: 0 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
 }
