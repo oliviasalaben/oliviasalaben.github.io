@@ -14,7 +14,7 @@ body {
 /* Header Styling */
 header {
     background-color: #ff3f00; /* Bright red for a playful touch */
-    color: ##fff; /*White text
+    color: ##fff; /*White text */
     padding: 20px;
     text-align: center;
 }
@@ -43,7 +43,7 @@ h1 {
 /* Hero Section Styling */
 .hero {
     background: url('hero-image.jpg') no-repeat center center/cover;
-    color: #000000; #black text
+    color: #ffff; /* white text */
     text-align: center;
     padding: 50px 20px;
     border-bottom: 5px solid ##000000; /* Black border color */
