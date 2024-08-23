@@ -13,7 +13,7 @@ body {
 
 /* Header Styling */
 header {
-    background-color: #ff69b4; /* Bright pink for a playful touch */
+    background-color: #ff3f00; /* Bright red for a playful touch */
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -46,7 +46,7 @@ h1 {
     color: #fff;
     text-align: center;
     padding: 50px 20px;
-    border-bottom: 5px solid #ff69b4; /* Playful border color */
+    border-bottom: 5px solid #ff3f00; /* Playful red border color */
 }
 
 .hero h2 {
@@ -71,7 +71,7 @@ h1 {
     flex: 1;
     max-width: 30%;
     background-color: #ffebcd; /* Light background for feature items */
-    border: 2px solid #ff69b4; /* Bright border color */
+    border: 2px solid #ff3f00; /* Bright red border color */
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
@@ -79,7 +79,7 @@ h1 {
 }
 
 .feature-item h4 {
-    color: #ff69b4; /* Bright pink for headings */
+    color: #ff3f00; /* Bright red for headings */
     margin-bottom: 10px;
 }
 
@@ -103,7 +103,7 @@ h1 {
 
 /* Footer Styling */
 footer {
-    background-color: #ff69b4; /* Match header color for consistency */
+    background-color: #ff3f00; /* Match header color for consistency */
     color: #fff;
     text-align: center;
     padding: 10px 0;
