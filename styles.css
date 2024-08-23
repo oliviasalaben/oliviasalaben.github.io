@@ -52,13 +52,13 @@ h1 {
 .hero h2 {
     font-size: 2rem;
     margin-bottom: 10px;
-    color: #fff; /* Ensure the heading color is white */
+    color: #00000; /* Ensure the heading color is black */
 }
 
 .hero p {
     font-size: 1.2rem;
     margin: 0;
-    color: #fff; /* Ensure the paragraph color is white */
+    color: #00000; /* Ensure the paragraph color is black */
 }
 
 /* Features Section Styling */
